@@ -1,7 +1,7 @@
 # custom_float_quant
 A from-scratch IEEE-754-style floating point simulator for exploring low-precision number formats used in LLM quantization (FP8, FP6, FP4, bfloat16, TF32, and the OCP Microscaling family) - built to understand why these formats work the way they do, not just to call a library that already does it.
 
-📖 Read the full writeup: What Actually Happens When You Quantize an LLM?
+📖 Read the full writeup: [What Actually Happens When You Quantize an LLM?](https://kumarajaypaonta.substack.com/p/what-actually-happens-when-you-quantize?r=3o4f22&utm_campaign=post&utm_medium=web)
 
 <img width="1408" height="768" alt="quantize_llm" src="https://github.com/user-attachments/assets/6b9bb64c-15c3-4361-a403-c7cd68529be2" />
 
