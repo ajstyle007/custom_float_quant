@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom-float-quant"
+version = "0.3.0"
+description = "A bit-level IEEE-754-style floating point simulator for exploring low-precision LLM quantization formats (FP8, FP6, FP4, bf16, TF32, OCP Microscaling)."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Ajay" }
+]
+requires-python = ">=3.9"
+keywords = [
+    "quantization", "float8", "fp8", "fp4", "fp6", "bfloat16",
+    "llm", "machine-learning", "microscaling", "mxfp4", "mxfp8"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.20",
+]
+
+[project.optional-dependencies]
+llm = [
+    "torch>=2.0",
+    "transformers>=4.30",
+]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ajstyle007/custom-float-quant"
+Repository = "https://github.com/ajstyle007/custom-float-quant"
+Issues = "https://github.com/ajstyle007/custom-float-quant/issues"
+
+[tool.setuptools.packages.find]
+include = ["custom_float_quant*"]
