@@ -1,0 +1,17 @@
+Metric,Value
+Iterations,800000
+Custom Format,E9M16
+Initial Value,1.2345
+Operation,x = x * 1.0001 + 0.0002
+Execution Time (sec),11.261479000095278
+Operations/sec,71038.62645334877
+Final FP32 Value,1.7849606467464473e+35
+Final Custom Value,1.9126819316483617e+35
+Final Absolute Error,1.2772128490191435e+34
+Final Relative Error (%),7.155411808922479
+Average Absolute Error,1.5814188090048366e+32
+Average Relative Error (%),2.8497243711619116
+Maximum Absolute Error,1.2772128490191435e+34
+Maximum Relative Error (%),7.372862763388126
+Minimum Absolute Error,1.2425327629017602e-06
+Minimum Relative Error (%),6.791003340575518e-06
