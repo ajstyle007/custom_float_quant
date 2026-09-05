@@ -141,3 +141,5 @@ custom_fp_quantization/
     └── test_block_scaling.py
 ```
 
+#### License
+MIT - see LICENSE.
